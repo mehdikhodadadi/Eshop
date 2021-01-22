@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\contentFiles\any\netstandard2.0\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\contentFiles\any\netstandard2.0\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\contentFiles\any\netstandard2.0\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.5" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.11.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CartModel\CartModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Mehdi\.nuget\packages\mongodb.driver.core\2.11.5\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+</Project>
